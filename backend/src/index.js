@@ -6,7 +6,7 @@ const connect = require("./config/db");
 app.use(express.json());
 
 const productController = require("./controllers/product.controllers");
-app.use("/", productController);
+app.use("/products", productController);
 
 app.listen(PORT, async () => {
   try {
