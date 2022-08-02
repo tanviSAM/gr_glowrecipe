@@ -1,14 +1,15 @@
+// import Slider from "./components/Slider";
 import "./App.css";
-import { Header } from "./components/Header";
+import { Homepage } from "./components/Homepage";
+// import Products from "./components/Products";
+// import { Header } from "./components/Header";
 // import Navbar from "./components/Navbar";
-import Product from "./components/Products";
+// import Product from "./components/Products";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Navbar/> */}
-      <Header />
-      <Product />
+    <div className="App">    
+      <Homepage/>
     </div>
   );
 }

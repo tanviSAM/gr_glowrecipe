@@ -57,12 +57,12 @@ function Products() {
                 <img
                   src={user.image}
                   onMouseEnter={() => {
-                    this.setState({
+                    this.src({
                       img: user.image_hover,
                     });
                   }}
                   onMouseOut={() => {
-                    this.setState({
+                    this.src({
                       img: user.image,
                     });
                   }}
